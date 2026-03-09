@@ -3,7 +3,6 @@ import requests
 import pandas as pd
 import plotly.express as px
 from datetime import datetime
-from main import load_all_records, add_record, delete_record, main 
 
 API_URL = "http://127.0.0.1:8000"
 RECORDS_URL = f"{API_URL}/records"
@@ -179,6 +178,7 @@ def main():
  # Запускаем приложение
 if __name__ == "__main__":
     main()
+
 
 
 
