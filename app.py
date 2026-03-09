@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime
 
-API_URL = "http://0.0.0.0:8000"
+API_URL = "https://task-03-lmek.onrender.com:8000"
 RECORDS_URL = f"{API_URL}/records"
 
 def load_all_records():
@@ -178,6 +178,7 @@ def main():
  # Запускаем приложение
 if __name__ == "__main__":
     main()
+
 
 
 
