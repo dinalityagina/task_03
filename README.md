@@ -15,9 +15,9 @@
     streamlit run app.py
     ```    
 ## Структура проекта
--   `/backend/data.csv`: Исходный датасет.
--   `/backend/main.py`: бэкэнд сервер 
--   `/fronend/app.py`: Клиент 
+-   `data.csv`: Исходный датасет.
+-   `main.py`: бэкэнд сервер 
+-   `app.py`: Клиент 
 -   `requirements.txt`: Список зависимостей.
 
 ## Данные
@@ -26,3 +26,4 @@
 ## Лицензия
 
 Этот проект распространяется под лицензией MIT.requirements.txt
+
