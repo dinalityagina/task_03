@@ -6,7 +6,7 @@ from typing import List
 app = FastAPI(title="Task_03 API")
 
 data_records = []
-DATA_FILE = "backend/data.csv"
+DATA_FILE = "data.csv"
 
 def load_data():
     global data_records
@@ -75,6 +75,7 @@ async def delete_record(record_id: int):
         status_code=status.HTTP_404_NOT_FOUND,
         detail=f"Запись с id {record_id} не найдена"
     )
+
 
 
 
