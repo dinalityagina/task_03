@@ -2,20 +2,15 @@
 Курс “Python для разработки”
 
 ## Установка
-1.  Клонируйте репозиторий:
-    ```
-    git clone https://github.com/your-username/task_03.git
-    cd task_03
-    ```
-2.  Установите необходимые библиотеки:
+1.  Установите необходимые библиотеки:
     ```
     pip install -r requirements.txt
     ```
-3. Запуск бэкенда:
+2. Запуск бэкенда:
     ```
-    uvicorn backend.main:app --reload 
+    uvicorn main:app --reload 
     ```    
-4. Запуск UI:
+3. Запуск UI:
     ```
     streamlit run app.py
     ```    
@@ -29,4 +24,5 @@
 Используется датасет (https://drive.google.com/file/d/1mDP_tVimEehAKV1va-m1SaKMGs7de8JP/view) RU_Electricity_Market_PZ_dayahead_price_volume.csv 
 
 ## Лицензия
+
 Этот проект распространяется под лицензией MIT.requirements.txt
