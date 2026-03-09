@@ -2,7 +2,7 @@ import pandas as pd
 from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel, Field
 from typing import List
-
+from main import load_data, save_data
 
 app = FastAPI(title="Task_03 API")
 
@@ -76,6 +76,7 @@ async def delete_record(record_id: int):
         status_code=status.HTTP_404_NOT_FOUND,
         detail=f"Запись с id {record_id} не найдена"
     )
+
 
 
 
