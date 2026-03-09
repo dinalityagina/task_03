@@ -1,5 +1,6 @@
 ﻿requests
-altair==4.2.2
+streamlit=1.28.0
+altair=5.0.0
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.12.1
@@ -51,4 +52,5 @@ urllib3==2.6.3
 uvicorn==0.41.0
 watchfiles==1.1.1
 websockets==16.0
+
 
